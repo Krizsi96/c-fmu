@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription fmiVersion="2.0"
+                     modelName="SimpleFMU_CoSim"
+                     guid="12345678-9abc-def0-1234-56789abcdef0"
+                     generationTool="Custom FMU"
+                     variableNamingConvention="flat"
+                     numberOfEventIndicators="0">
+
+    <CoSimulation modelIdentifier="simple_fmu" canHandleVariableCommunicationStepSize="true">
+        <SourceFiles>
+            <File name=""/>
+        </SourceFiles>
+    </CoSimulation>
+
+    <ModelVariables>
+        <ScalarVariable name="output" valueReference="0" variability="continuous" causality="output">
+            <Real/>
+        </ScalarVariable>
+    </ModelVariables>
+
+    <ModelStructure>
+        <Outputs>
+            <Unknown index="1" dependencies=""/>
+        </Outputs>
+        <InitialUnknowns>
+            <Unknown index="1" dependencies=""/>
+        </InitialUnknowns>
+    </ModelStructure>
+</fmiModelDescription>
